@@ -10,7 +10,8 @@ body {
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 400;
+  color: aliceblue;
 }
 
 .container {
@@ -20,13 +21,21 @@ h1 {
   /* border: 1px solid gray; */
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 1000px;
+  padding-top: 200px;
 }
 
 .boxes {
+  min-height: 200px;
   padding: 30px;
   border: 1px dashed gray;
   text-align: center;
   background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  /* background: spalva paveiklselis 'ar kartroti' pozicija */
+  background: tomato url("../small.jpg") no-repeat center center;
   background-size: contain;
 }
 
