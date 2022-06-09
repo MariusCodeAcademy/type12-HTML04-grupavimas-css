@@ -1,0 +1,40 @@
+* {
+  /* kad i elemtu ploti ir auksti isiskaiciuotu padding ir border */
+  box-sizing: border-box;
+}
+body {
+  /* background-color: tomato; */
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  border: 1px solid gray;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boxes {
+  padding: 30px;
+  border: 1px dashed gray;
+  text-align: center;
+}
+
+.box {
+  background-color: tomato;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  border: 5px solid black;
+  /* display: inline-block; */
+  margin: 15px 15px;
+}
+
+.special {
+  margin: 50px auto 5px;
+}
+
+.h2-1 {
+  padding-bottom: 19px;
+  margin-bottom: 0;
+}
