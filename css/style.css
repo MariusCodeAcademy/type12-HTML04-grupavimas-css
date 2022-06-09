@@ -3,13 +3,21 @@
   box-sizing: border-box;
 }
 body {
+  font-family: 'Poppins', sans-serif;
   /* background-color: tomato; */
   margin: 0;
+  background-color: rgb(202, 202, 202);
+}
+
+h1 {
+  font-weight: 300;
 }
 
 .container {
+  padding: 30px;
+  background-color: snow;
   max-width: 800px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -18,15 +26,17 @@ body {
   padding: 30px;
   border: 1px dashed gray;
   text-align: center;
+  background-image: url("1.jpg");
+  background-size: contain;
 }
 
 .box {
   background-color: tomato;
-  width: 150px;
+  width: 28%;
   height: 150px;
   padding: 50px;
   border: 5px solid black;
-  /* display: inline-block; */
+  display: inline-block;
   margin: 15px 15px;
 }
 
